@@ -1,5 +1,5 @@
 [package]
-name = "inventorer-print"
+name = "inventorer_print"
 version = "0.1.0"
 authors = ["Francis Begyn <francis.begyn@gmail.com>"]
 edition = "2018"

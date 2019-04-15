@@ -1,0 +1,9 @@
+[package]
+name = "inventorer-print"
+version = "0.1.0"
+authors = ["Francis Begyn <francis.begyn@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+barcoders = {version = "0.10.0", features = ["image"]}
+printpdf = "0.2.10"

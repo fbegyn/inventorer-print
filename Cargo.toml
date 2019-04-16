@@ -7,3 +7,4 @@ edition = "2018"
 [dependencies]
 barcoders = {version = "0.10.0", features = ["image"]}
 printpdf = "0.2.10"
+image = "0.21.1"

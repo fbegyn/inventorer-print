@@ -12,7 +12,7 @@ fn main(){
     //let barcode = barcode.trim();
 
     //barcode_to_ean13(barcode, "/tmp/barcode.png");
-    barcode_to_ean13("012345678901", "/tmp/barcode.png");
-    render_small_label("schroevendraaier",  "rek 5",  "site&safety", "012345678901", "/tmp/barcode.png", "/tmp/label.pdf");
+    barcode_to_ean13("012345678901", "/tmp/barcode.jpg");
+    render_small_label("schroevendraaier",  "rek 5",  "site&safety", "012345678901", "/tmp/barcode.jpg", "/tmp/label.pdf");
     //print_barcode("Brother-QL-820NWB","/tmp/label.pdf");
 }

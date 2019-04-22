@@ -57,7 +57,7 @@ fn manual_print(printer: &str){
     if re.is_match(barcode) {
         println!("generating barcode label ...");
         // generate the barcode image
-        barcode_to_ean13(barcode, "/tmp/barcode.png");
+        barcode_to_ean13(barcode, "/tmp/barcode.jpg");
         render_small_label_barcode(item,  location,  owner, &barcode, "/tmp/barcode.jpg", "/tmp/label.pdf");
     } else {
         println!("generating label ...");
